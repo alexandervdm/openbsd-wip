@@ -26,7 +26,7 @@ do-install:
 	mkdir -p ${PREFIX}/share/go-ethereum
 	cp ${FILESDIR}/geth.conf ${PREFIX}/share/go-ethereum/geth.conf
 	${SUBST_CMD} ${PREFIX}/share/go-ethereum/geth.conf
-	for b in abigen bootnode evm geth puppeth rlpdump swarm wnode ; do \
+	for b in abigen bootnode evm geth puppeth rlpdump wnode ; do \
 		${INSTALL_PROGRAM} ${WRKSRC}/build/bin/$$b ${PREFIX}/bin/; \
 	done
 

@@ -30,8 +30,5 @@ rlpdump:
    encoding used by the Ethereum protocol both network as well as consensus
    wise)
 
-swarm:
-   swarm daemon and tools. This is the entrypoint for the Swarm network
-
 puppeth:
    CLI wizard that aids in creating a new Ethereum network

@@ -17,7 +17,6 @@
 @bin bin/geth
 @bin bin/puppeth
 @bin bin/rlpdump
-@bin bin/swarm
 @bin bin/wnode
 @comment share/doc/pkg-readmes/${PKGSTEM}
 share/go-ethereum/
