@@ -1,6 +1,6 @@
 @comment $OpenBSD: PLIST,v$
-@newgroup _geth:831
-@newuser _geth:831:831:daemon:geth Account:${VARBASE}/geth:/sbin/nologin
+@newgroup _geth:833
+@newuser _geth:833:833:daemon:geth Account:${VARBASE}/geth:/sbin/nologin
 @rcscript ${RCDIR}/geth
 @mode 750
 @owner _geth
