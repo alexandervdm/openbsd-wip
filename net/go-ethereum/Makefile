@@ -13,7 +13,8 @@ MAINTAINER =	Fabian Raetz <fabian.raetz@gmail.com>
 WANTLIB += 	c pthread
 
 # LGPL-3.0
-PERMIT_PACKAGE_CDROM = Yes
+PERMIT_PACKAGE = Yes
+PERMIT_DISTFILES = Yes
 
 MODULES =	lang/go
 MODGO_TYPE =	bin
