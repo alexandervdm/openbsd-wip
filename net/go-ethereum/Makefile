@@ -8,7 +8,7 @@ GH_TAGNAME =	v$V
 
 CATEGORIES =	net
 HOMEPAGE =	https://geth.ethereum.org/
-MAINTAINER =	Fabian Raetz <fabian.raetz@gmail.com>
+MAINTAINER =	Alexander van der Meij <ports@vandermeij.tech>
 
 WANTLIB += 	c pthread
 
